@@ -54,7 +54,8 @@ export default function Home() {
   );
   return (
     <ChatWindow
-      endpoint="api/chat"
+      // endpoint="api/chat"
+      endpoint="http://localhost:8000/chat"
       emoji="🏴‍☠️"
       placeholder="I'm an Ramen LLM"
       emptyStateComponent={InfoCard}
